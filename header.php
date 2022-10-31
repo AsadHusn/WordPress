@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/style.css">
 </head>
 <body>
-        <?php wp_nav_menu( [
+    <header>
+        <a href="<?php site_url() ?>">
+            <img src="<?php echo get_header_image()  ?>" alt="">
+        </a>
+        <?php 
+        wp_nav_menu( [
             'theme_location' => 'primary-menu',
             'menu_class' => 'nav'
             ]);
         ?>
+
+    </header>

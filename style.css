@@ -7,10 +7,20 @@ Version: 1.0
 Theme URI: google.com
 */
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 10px 0;
+}
+
+header img{
+    width: 100px;
+}
+
 .nav{
     display: flex;
-    background-color: beige;
-    justify-content: center;
 }
 
 .nav li{
