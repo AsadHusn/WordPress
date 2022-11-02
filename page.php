@@ -9,9 +9,8 @@
 <?php the_content() ?>
 
 
-<?php $imgpath =  wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' , false);
-
-
+<?php
+    $imgpath =  wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' , false);
 ?>
 
 <img src="<?php echo $imgpath[0] ?>" alt="feature image" width=500px>

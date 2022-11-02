@@ -39,3 +39,9 @@ header img{
     text-decoration: underline blue wavy;
 }
 
+.current_page_item a{
+    color: red;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+}

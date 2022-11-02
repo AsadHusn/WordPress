@@ -1,0 +1,63 @@
+wp_header
+wp_head
+wp_footer
+wp_body_open
+admin_menu
+
+
+
+
+settings_errors()
+
+
+wp_head()
+wp_body_open()
+
+is_user_logged_in()
+
+get_bloginfo("name")
+
+object
+wp_get_current_user() -> user_login
+
+
+add_action( string $hook_name, callable $callback, int $priority = 10, int $accepted_args = 1 ): true
+
+add_action("wp_body_open", "function")
+
+
+to include CSS
+add_action("wp_print_styles", "function")
+
+bloginfo()
+body_class()
+get_body_class()
+
+
+wp_get_document_title()
+
+wp_logout_url()
+wp_loginout()
+
+function_exists('function')
+
+get_stylesheet
+get_stylesheet_directory
+get_stylesheet_uri
+get_stylesheet_directory_uri
+
+
+-- translation
+gettext()
+
+
+
+safe use html with translation
+__( string $text, string $domain = 'default' ): string
+translate( string $text, string $domain = 'default' ): string
+
+
+esc_html__( string $text, string $domain = 'default' ): string
+esc_html_e( string $text, string $domain = 'default' )
+
+submit_button()

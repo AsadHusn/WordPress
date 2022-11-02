@@ -10,7 +10,7 @@
 <body>
     <header>
         <a href="<?php site_url() ?>">
-            <img src="<?php echo get_header_image()  ?>" alt="">
+            <img src="<?php echo get_header_image()  ?>">
         </a>
         <?php 
         wp_nav_menu( [
